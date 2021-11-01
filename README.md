@@ -1,25 +1,28 @@
-# NOTE:
-# tinggal upload ke https://www.e-serkom-ng.co.id/
-# tambahan
-# buat perulangan foreach untuk elemen select option type kamar + array (done)
-# buat modal show pada index1.php jika tombol ditekan
-# rapihin footer, dengan isi tentang kami, tel, email, dll
+## Booking Room App
+#### _Simple app for booking hotel room_
 
-# How to run
-# 1. extract file pada document folder xampp -> htdocs
-# 2. jalankan control panel xampp dan start apache + MySQL
-# 3. buka browser, dan ketikan localhost/nama-folder-project
+## Features
+- Count grand total checkout
+- Adding 10% discount when booking >3 days
+- Chaining Drop Down List
+- Add server side validation
 
-1. 
-# Membangun Mockup UI
-# Implementasi Mockup ke Code dengan menggunakan Bootstrap library
+## Installation
 
-2. 
-# Membuat struktur form HTML
-# Indentifikasi dan membuat tipe input user
-# menambahkan rule validasi form pada client side & server side
-# Membuat penjumlahan total biaya pemesanan kamar hotel
-# Membuat logic process insert pada DB jika semua kondisi true
+Requires [PHP](https://www.php.net/) v7+, and [XAMPP](https://www.apachefriends.org/download.html) to run.
 
-3.
-# Kembali ke tampilan awal untuk proses input data
+#1. Clone repo https://github.com/ramdik/hotel-room-booking to local.
+
+```sh
+cd xampp/htdocs/your_folder
+git clone https://github.com/ramdik/hotel-room-booking.git
+```
+
+#2. Open XAMPP control panel and Start Apache , and MySQL.
+
+#3. Open localhost/phpmyadmin, and import Database.
+
+#4. Open program path.
+```sh
+localhost/clone_path
+```
